@@ -1,24 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import MainQuiz from './components/MainQuiz';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2>Cloud Computing Final Quiz Preparations - using React and pulling json from Azure Cloud SQL Database</h2>
+      <h2>- Robert Dumitrescu -</h2>
+        <MainQuiz/>
     </div>
   );
 }
